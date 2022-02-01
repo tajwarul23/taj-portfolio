@@ -43,6 +43,9 @@ header{
     align-items: center;
     justify-items: center;
     text-align: center;
+    border-radius: 20px;
+    padding-right: 20ox;
+    padding-top: 20px;
 }
 header .user img{
     height: 19rem;
@@ -84,3 +87,82 @@ header .navbar ul li a:hover{
     background: var(--yellow);
 }
 
+/* MY STYLES */
+.container{
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0px 30px;
+    display: flex;
+}
+.home{
+    color: #eee;
+    padding-left: 40px;
+    padding-top: 100px;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.home h1{
+    font-size: 40px;
+}
+.home h2{
+    font-size: 30px;
+}
+.home h1 > span{
+    color: #f9ca24;
+}
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+
+.btn:hover{
+    background: #f9ca24;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queris */
+@media (max-width: 488px) {
+    .container{
+        display: block;
+    }
+}
